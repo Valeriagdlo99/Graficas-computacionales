@@ -237,3 +237,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.282440 seconds.
+  path: Assets/FirstPersonController.cs
+  artifactKey: Guid(baf333601b2c443a0b5e73fb6b9c72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersonController.cs using Guid(baf333601b2c443a0b5e73fb6b9c72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc9994d7b0a685c1869bf5feaa6295') in 1.688114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/valeriaguerradelao/Documents/Graficas/Graficas-computacionales/terrain/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/valeriaguerradelao/Documents/Graficas/Graficas-computacionales/terrain/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 13.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 16.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (16860ms)
+		BeginReloadAssembly (2363ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (245ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (739ms)
+		EndReloadAssembly (13323ms)
+			LoadAssemblies (1481ms)
+			RebuildTransferFunctionScriptingTraits (21ms)
+			SetupTypeCache (1794ms)
+			ReleaseScriptCaches (136ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (7269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (576ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (598ms)
+				ProcessInitializeOnLoadAttributes (5061ms)
+				ProcessInitializeOnLoadMethodAttributes (1010ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.0 KB). Loaded Objects now: 3909.
+Memory consumption went from 261.5 MB to 261.5 MB.
+Total: 275.766750 ms (FindLiveObjects: 3.509291 ms CreateObjectMapping: 2.537000 ms MarkObjects: 266.986958 ms  DeleteObjects: 2.662875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
