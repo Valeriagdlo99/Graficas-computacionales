@@ -1,1 +1,1 @@
-/Users/carlos/Documents/Semestre IX/Gráficas Computacionales/Proyecto/Graficas-computacionales/terrain
+/Users/valeriaguerradelao/Documents/Graficas/Graficas-computacionales/terrain
